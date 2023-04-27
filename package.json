@@ -3,7 +3,8 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
-    "serve:shell": "nx serve shell-app"
+    "serve": "nx serve shell-app",
+    "serve:dashboard": "nx serve dashboard"
   },
   "private": true,
   "dependencies": {
