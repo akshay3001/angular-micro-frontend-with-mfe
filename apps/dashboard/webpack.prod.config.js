@@ -12,4 +12,7 @@ module.exports = withModuleFederation({
    *   ['app2', 'https://app2.example.com'],
    * ]
    */
+  remotes: [
+    ['dashboard', 'https://angular-nx-micro-frontend-with-mfe.vercel.app/']
+  ]
 });
