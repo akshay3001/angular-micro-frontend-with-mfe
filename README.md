@@ -6,9 +6,9 @@
 
 This is a sample project demonstrating the implementation of a micro-frontend architecture using Angular and Module Federation. The project consists of a host application called Shell App and a remote application called Dashboard.
 
-[![shellapp](https://img.shields.io/badge/App-Shell_(Host)-000?style=for-the-badge&logo=vercel)](https://shell-angular-nx-micro-frontend-with-mfe.vercel.app/)
+[![shellapp](https://img.shields.io/badge/App-Shell_(Host)-000?style=for-the-badge&logo=vercel)](https://shell-angular-micro-frontend-with-mfe.vercel.app/)
 
-[![remoteapp](https://img.shields.io/badge/App-Dashboard_(Remote)-000?style=for-the-badge&logo=vercel)](https://angular-nx-micro-frontend-with-mfe.vercel.app/)
+[![remoteapp](https://img.shields.io/badge/App-Dashboard_(Remote)-000?style=for-the-badge&logo=vercel)](https://angular-micro-frontend-with-mfe.vercel.app/)
 
 ## Table of Contents
 
