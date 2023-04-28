@@ -1,27 +1,62 @@
-# MyWorkspace
+# Micro-frontend with Module Federation
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.7.
+This is a sample project demonstrating the implementation of a micro-frontend architecture using Angular and Module Federation. The project consists of a host application called Shell App and a remote application called Dashboard.
 
-## Development server
+[![shellapp](https://img.shields.io/badge/App-Shell_(Host)-000?style=for-the-badge&logo=vercel)](https://staging-shell-angular-micro-frontend-with-mfe.vercel.app/)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+[![remoteapp](https://img.shields.io/badge/App-Dashboard_(Remote)-000?style=for-the-badge&logo=vercel)](https://staging-angular-micro-frontend-with-mfe.vercel.app/)
 
-## Code scaffolding
+## Table of Contents
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
 
-## Build
+## Installation
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+To get started with this project, you need to clone this repository to your local machine. After cloning the repository, navigate to the root directory of the project and run the following command to install the required dependencies:
 
-## Running unit tests
+```sh
+npm install
+```
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Usage
 
-## Running end-to-end tests
+To start the Shell App and the Dashboard, run the following command:
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+```sh
+npm run start
+```
 
-## Further help
+This command will start both the Shell App and the Dashboard and open the application in your default browser.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+To start the Dashboard, run the following command:
+
+```sh
+npm run start:dashboard
+```
+
+To build the application for production, run the following command:
+
+```sh
+npm run build
+```
+
+This command will build both the Shell App and the Dashboard and output the production-ready code in the `dist` folder.
+
+## Contributing
+
+Contributions to this project are welcome. To contribute, please follow these steps:
+
+1. Fork the repository
+2. Create a new branch for your feature or bug fix
+3. Make your changes and commit them
+4. Push your changes to your fork
+5. Open a pull request
+
+Please ensure that your code adheres to the [Angular Style Guide](https://angular.io/guide/styleguide) and that all tests pass before submitting a pull request.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
