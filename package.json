@@ -6,7 +6,9 @@
     "start:shell": "ng serve shell-app",
     "start:dashboard": "ng serve dashboard --port 4201",
     "build": "ng build shell-app",
+    "postbuild": "mkdir -p dist/apps && cp -r dist/shell-app dist/apps && rm -rf dist/shell-app",
     "build:dashboard": "ng build dashboard",
+    "postbuild:dashboard": "mkdir -p dist/apps && cp -r dist/dashboard dist/apps && rm -rf dist/dashboard",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "run:all": "node node_modules/@angular-architects/module-federation/src/server/mf-dev-server.js"
